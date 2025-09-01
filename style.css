@@ -1,0 +1,196 @@
+*{
+    font-weight: lighter;
+    color: rgb(252, 252, 252);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+h1{
+    font-weight: 300;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 3%;
+    justify-content: center;
+}
+body{
+    background-image:url('assets/bg.jpg');
+    width: 100%;
+    height: 100dvh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 650px;
+    width: 450px;
+    border: solid;
+    border-radius: 30px;
+    box-shadow: 0px 0px 6px rgb(207, 214, 219);
+    border-color: azure;
+    backdrop-filter: blur(5px);
+    padding: 15px;
+    position: relative;
+}
+.search{
+    width: 376px;
+    height: 40px;
+    border-radius: 100px;
+    border: transparent;
+    border-style: solid;
+    background-color: rgb(69, 156, 200);
+    padding-left: 20px;
+    padding-right: 55px;
+    outline: none;
+    transition: 0.2s border;
+    font-size: medium;
+    font-style: normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: aliceblue;
+}
+.search::placeholder{
+    color: aliceblue; 
+    font-size: medium;  
+    text-align: left; 
+    transition: 1s border;
+}
+.search:focus{
+    border: 1px solid aliceblue;
+}
+.btn{
+    position: absolute;
+    border:none;
+    background: none;
+    color: aliceblue;
+    right: 28px;
+    top: 25px;
+    cursor: pointer;
+}
+
+.weather{
+    color: aliceblue;
+    position: relative;
+    margin-top: 1px;
+}
+.locDate{
+   margin-left: 8%;
+   margin-top: 10px;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin-right: 10%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.loc{
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-size: cover;
+}
+.date{
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 600;
+}
+img{
+    height: 30px;
+}
+.weather-cond{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 0px;
+}
+.sunny{
+    height: 200px;
+}
+.temp{
+    font-size: 40px;
+    font-weight: 600;
+}
+.condition{
+    font-size: 25px;
+    font-weight: 150;
+}
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.info1{
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.info-img{
+    height: 40px;
+}
+.state{
+    font-weight: 400;
+}
+.state-info{
+    font-weight: 700;
+}
+.wind-info{
+    font-weight: 700;
+}
+.all{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 60px;
+    overflow: scroll;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.prev-img{
+    height: 75px;
+}
+.date1{
+    font-weight: 600;
+}
+.prev-state{
+    font-weight: 600;
+}
+.previous{
+    min-width: 130px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.reg1{
+    font-size: 35px;
+}
+.reg2{
+    font-size: 20px;
+}
+.img-sear{
+    height: 250px;
+    margin-left: 24%;
+    margin-top: 20%;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.img-sear2{
+    height: 250px;
+    margin-left: 13%;
+    margin-top: 20%;
+    border-radius: 20px;
+    border: 2px solid black;
+}

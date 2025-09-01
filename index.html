@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+</head>
+<body>
+ <main class="container">
+    <header class="city" >
+        <input class="search" placeholder="Search City" type="text">
+        <button class="btn">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </button>
+    </header>
+    <section class="all-info" style="display: none" >
+        <div class="weather">
+            <div class="locDate">
+                <div class="loc">
+                    <img src="/assets/weather/location.png" alt="loc">
+                    <h4 class="country-name">Gangavathi</h4>
+                </div>
+                <h5 class="date">Aug 23, Sat</h5>
+            </div>
+        </div>
+        <div class="weather-cond">
+            <img src="assets/weather/clouds.svg" alt="weather" class="sunny">
+            <div class="info">
+                <div class="temp">29 °C</div>
+                <div class="condition">Clouds</div>
+            </div>
+        </div>
+        <div class="more-info">
+            <div class="info1">
+                <img src="assets/weather/wind'.png" alt="humi" class="info-img">
+                <div>
+                    <div class="state">Humidity</div>
+                    <div class="state-info">55%</div>
+                </div>
+            </div>
+            <div class="info1">
+                <img src="assets/weather/humidity.png" alt="humi" class="info-img">
+                <div>
+                    <div class="state">Wind Speed</div>
+                    <div class="wind-info">2 m/s</div>
+                </div>
+            </div>
+        </div>
+        <div class="all">
+            <div class="previous">
+                <div class="date1">Aug 22, Fri</div>
+                <img src="assets/weather/clouds.svg" alt="prev-img" class="prev-img">
+                <div class="prev-state">29 °C</div>
+            </div>
+            <div class="previous">
+                <div class="date1">Aug 22, Fri</div>
+                <img src="assets/weather/clouds.svg" alt="prev-img" class="prev-img">
+                <div class="prev-state">29 °C</div>
+            </div>
+            <div class="previous">
+                <div class="date1">Aug 22, Fri</div>
+                <img src="assets/weather/clouds.svg" alt="prev-img" class="prev-img">
+                <div class="prev-state">29 °C</div>
+            </div>
+            <div class="previous">
+                <div class="date1">Aug 22, Fri</div>
+                <img src="assets/weather/clouds.svg" alt="prev-img" class="prev-img">
+                <div class="prev-state">29 °C</div>
+            </div>
+        </div>
+    </section>
+    <section class="search-city">
+        <img class="img-sear" src="assets/message/search.jpg" alt="search">
+       <div class="text">
+            <div style="font-size: 35px;">Search City</div>
+            <div style="font-size: 20px;">Find out the Weather of the City</div>
+       </div>
+    </section>
+    <section class="not-found" style="display: none">
+        <img class="img-sear2" src="assets/message/notfound.gif" alt="search">
+       <div class="text">
+            <div style="font-size: 35px;">Search City</div>
+            <div style="font-size: 20px;">Find out the Weather of the City</div>
+       </div>
+    </section>
+ </main>
+</body>
+</html>
